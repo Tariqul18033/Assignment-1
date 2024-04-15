@@ -4,7 +4,7 @@ function calculate(){
     let valid_number = validity(num1,num2)
     if(valid_number){
         a = operation(num1,num2)
-        document.getElementById('output').innerHTML=a
+        document.getElementById('output').innerHTML="output " +a
     }
     else{
         document.getElementById('output').innerHTML="enter a valid number"
